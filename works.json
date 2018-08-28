@@ -1,0 +1,88 @@
+{
+  "works": [
+    {
+      "id": "kyoto-chocolate-map",
+      "title": "Kyoto Chocolate Map",
+      "summary": "A single page map application using React and the Google Maps API.",
+      "url": "https://github.com/mokajima/kyoto-chocolate-map",
+      "border": false
+    },
+    {
+      "id": "myreads",
+      "title": "MyReads",
+      "summary": "A web application that allows users to select and categorize books into a virtual bookshelf.",
+      "url": "https://github.com/mokajima/myreads",
+      "border": true
+    },
+    {
+      "id": "restaurant-reviews-app",
+      "title": "Restaurant Reviews App",
+      "summary": "A restaurant reviews website which is responsive, accessible and available offline.",
+      "url": "https://github.com/mokajima/restaurant-reviews-app",
+      "border": false
+    },
+    {
+      "id": "avant",
+      "title": "AVANT",
+      "summary": "A beautiful and responsive WordPress theme for event websites.",
+      "url": "http://tcdwp.fun/tcd060/",
+      "border": true
+    },
+    {
+      "id": "classic-arcade-game",
+      "title": "Classic Arcade Game",
+      "summary": "A HTML5 Canvas powered video game, developed using Object Oriented JavaScript.",
+      "url": "https://github.com/mokajima/classic-arcade-game-clone",
+      "border": true
+    },
+    {
+      "id": "memory-game",
+      "title": "Memory Game",
+      "summary": "A complete browser-based card matching game (also known as Concentration).",
+      "url": "https://github.com/mokajima/memory-game/",
+      "border": false
+    },
+    {
+      "id": "todo-list",
+      "title": "Todo List",
+      "summary": "A simple Todo list written in vanilla JavaScript.",
+      "url": "https://github.com/mokajima/todo/",
+      "border": false
+    },
+    {
+      "id": "kadan",
+      "title": "KADAN",
+      "summary": "A beautiful and responsive WordPress theme for Japanese-style websites.",
+      "url": "http://tcdwp.info/tcd056/",
+      "border": false
+    },
+    {
+      "id": "beauty",
+      "title": "Beauty",
+      "summary": "A beautiful and responsive WordPress theme for beauty salons.",
+      "url": "http://tcdwp.info/tcd054/",
+      "border": true
+    },
+    {
+      "id": "vogue",
+      "title": "VOGUE",
+      "summary": "A beautiful and responsive WordPress theme for corporate websites.",
+      "url": "http://tcdwp.info/tcd051/",
+      "border": false
+    },
+    {
+      "id": "oops",
+      "title": "OOPS!",
+      "summary": "A beautiful and responsive WordPress theme for landing pages.",
+      "url": "http://tcdwp.info/tcd048/",
+      "border": false
+    },
+    {
+      "id": "story",
+      "title": "STORY",
+      "summary": "A beautiful and responsive WordPress theme for luxury websites.",
+      "url": "http://tcdwp.info/tcd048/",
+      "border": true
+    }
+  ]
+}
