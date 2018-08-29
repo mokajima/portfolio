@@ -1,6 +1,7 @@
 import React, {Component} from 'react'
 import Work from './Work'
 import './App.css'
+import header from './header.jpg'
 
 class App extends Component {
   state = {
@@ -26,7 +27,7 @@ class App extends Component {
         <main className="main">
           <header className="hero">
             <h2 className="hero__title">Hello, I'm Misaki!</h2>
-            <img className="hero__img" src="images/header.jpg" alt="" />
+            <img className="hero__img" src={header} alt="" />
           </header>
           <section className="section">
             <h2 className="headline">Featured Work</h2>
