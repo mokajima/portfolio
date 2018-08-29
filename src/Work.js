@@ -5,7 +5,7 @@ const Work = (props) => {
   const className = work.border ? 'work__img work__img--border' : 'work__img'
 
   return (
-    <li className="featured-work__item work">
+    <div className="work">
       <a href={work.url} target="_blank">
         <figure className={className}>
           <img src={`images/${work.id}.jpg`} alt={work.title} />
@@ -15,7 +15,7 @@ const Work = (props) => {
         <a href={work.url} target="_blank">{work.title}</a>
       </h3>
       <p className="work__summary">{work.summary}</p>
-    </li>
+    </div>
   )
 }
 

@@ -33,7 +33,9 @@ class App extends Component {
             <h2 className="headline">Featured Work</h2>
             <ul className="featured-work">
               {this.state.works.map((work) => (
-                <Work key={work.id} work={work} />
+                <li key={work.id}>
+                  <Work work={work} />
+                </li>
               ))}
             </ul>
           </section>
