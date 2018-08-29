@@ -114,14 +114,10 @@ a:hover {
 
 /* Featured work */
 .featured-work {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-}
-
-.featured-work__item {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-row-gap: 30px;
   margin-bottom: 30px;
-  width: 100%;
 }
 
 /* Work */
@@ -194,8 +190,9 @@ a:hover {
   .header__logo {
     font-size: 1.5em;
   }
-  .featured-work__item {
-    width: 47.5%;
+  .featured-work {
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 5%;
   }
 }
 
@@ -204,7 +201,7 @@ a:hover {
     margin-bottom: 100px;
   }
 
-  .featured-work__item {
-    width: 30%;
+  .featured-work {
+    grid-template-columns: 1fr 1fr 1fr;
   }
 }
