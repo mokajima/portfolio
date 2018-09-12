@@ -12,7 +12,7 @@
       "title": "MyReads",
       "summary": "A web application that allows users to select and categorize books into a virtual bookshelf.",
       "url": "https://github.com/mokajima/myreads",
-      "border": true
+      "border": false
     },
     {
       "id": "restaurant-reviews-app",
