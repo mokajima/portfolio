@@ -1,7 +1,7 @@
 import React, {Component} from 'react'
 import Work from './Work'
 import './App.css'
-import header from './header.jpg'
+import header from '../header.jpg'
 
 class App extends Component {
   state = {
