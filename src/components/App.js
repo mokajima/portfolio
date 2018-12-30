@@ -1,4 +1,5 @@
 import React, {Component} from 'react'
+import { getWorks } from '../utils/api'
 import Work from './Work'
 import './App.css'
 import header from '../header.jpg'
@@ -9,8 +10,7 @@ class App extends Component {
   }
 
   componentDidMount() {
-    fetch('works.json')
-      .then((res) => res.json())
+    getWorks()
       .then((data) => {
         this.setState({
           works: data.works
