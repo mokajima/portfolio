@@ -1,88 +1,132 @@
 {
   "works": [
     {
+      "id": "readable",
+      "title": "Readable",
+      "summary": "An anonymous content and comment web application.",
+      "url": "https://github.com/mokajima/readable",
+      "border": true,
+      "date": "2018-12"
+    },
+    {
+      "id": "mobile-flashcards",
+      "title": "Mobile Flashcards",
+      "summary": "A mobile application for iOS that allows users to study collections of flashcards.",
+      "url": "https://github.com/mokajima/mobile-flashcards",
+      "border": false,
+      "date": "2018-12"
+    },
+    {
+      "id": "would-you-rather",
+      "title": "Would You Rather",
+      "summary": "A web app that lets a user play the \"Would You Rather?\" game.",
+      "url": "https://github.com/mokajima/would-you-rather",
+      "border": true,
+      "date": "2018-11"
+    },
+    {
+      "id": "switch",
+      "title": "Switch",
+      "summary": "A beautiful and responsive WordPress theme for coworking spaces.",
+      "url": "https://tcdwp.fun/tcd063/",
+      "border": false,
+      "date": "2018-09"
+    },
+    {
       "id": "kyoto-chocolate-map",
       "title": "Kyoto Chocolate Map",
       "summary": "A single page map application using React and the Google Maps API.",
       "url": "https://github.com/mokajima/kyoto-chocolate-map",
-      "border": false
+      "border": false,
+      "date": "2018-08"
     },
     {
       "id": "myreads",
       "title": "MyReads",
       "summary": "A web application that allows users to select and categorize books into a virtual bookshelf.",
       "url": "https://github.com/mokajima/myreads",
-      "border": false
+      "border": false,
+      "date": "2018-08"
     },
     {
       "id": "restaurant-reviews-app",
       "title": "Restaurant Reviews App",
       "summary": "A restaurant reviews website which is responsive, accessible and available offline.",
       "url": "https://github.com/mokajima/restaurant-reviews-app",
-      "border": false
+      "border": false,
+      "date": "2018-07"
     },
     {
       "id": "avant",
       "title": "AVANT",
       "summary": "A beautiful and responsive WordPress theme for event websites.",
       "url": "http://tcdwp.fun/tcd060/",
-      "border": true
+      "border": true,
+      "date": "2018-06"
     },
     {
       "id": "classic-arcade-game",
       "title": "Classic Arcade Game",
       "summary": "A HTML5 Canvas powered video game, developed using Object Oriented JavaScript.",
       "url": "https://github.com/mokajima/classic-arcade-game",
-      "border": true
+      "border": true,
+      "date": "2018-06"
     },
     {
       "id": "memory-game",
       "title": "Memory Game",
       "summary": "A complete browser-based card matching game (also known as Concentration).",
       "url": "https://github.com/mokajima/memory-game/",
-      "border": false
+      "border": false,
+      "date": "2018-05"
     },
     {
       "id": "todo-list",
       "title": "Todo List",
       "summary": "A simple Todo list written in vanilla JavaScript.",
       "url": "https://github.com/mokajima/todo/",
-      "border": false
+      "border": false,
+      "date": "2018-03"
     },
     {
       "id": "kadan",
       "title": "KADAN",
       "summary": "A beautiful and responsive WordPress theme for Japanese-style websites.",
       "url": "http://tcdwp.info/tcd056/",
-      "border": false
+      "border": false,
+      "date": "2018-02"
     },
     {
       "id": "beauty",
       "title": "Beauty",
       "summary": "A beautiful and responsive WordPress theme for beauty salons.",
       "url": "http://tcdwp.info/tcd054/",
-      "border": true
+      "border": true,
+      "date": "2017-12"
     },
     {
       "id": "vogue",
       "title": "VOGUE",
       "summary": "A beautiful and responsive WordPress theme for corporate websites.",
       "url": "http://tcdwp.info/tcd051/",
-      "border": false
+      "border": false,
+      "date": "2017-09"
     },
     {
       "id": "oops",
       "title": "OOPS!",
       "summary": "A beautiful and responsive WordPress theme for landing pages.",
       "url": "http://tcdwp.info/tcd048/",
-      "border": false
+      "border": false,
+      "date": "2017-06"
     },
     {
       "id": "story",
       "title": "STORY",
       "summary": "A beautiful and responsive WordPress theme for luxury websites.",
       "url": "http://tcdwp.info/tcd048/",
-      "border": true
+      "border": true,
+      "date": "2016-11"
     }
   ]
 }
