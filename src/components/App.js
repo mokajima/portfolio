@@ -11,10 +11,8 @@ class App extends Component {
 
   componentDidMount() {
     getWorks()
-      .then((data) => {
-        this.setState({
-          works: data.works
-        })
+      .then((works) => {
+        this.setState({ works })
       })
   }
 
