@@ -17,6 +17,8 @@ class App extends Component {
   }
 
   render() {
+    const year = new Date().getFullYear()
+
     return (
       <div>
         <header className="header">
@@ -43,7 +45,9 @@ class App extends Component {
             <h2 className="headline">About Me</h2>
             <p className="profile__bio">Hello, I'm Misaki, a front end developer, based in Japan.</p>
           </div>
-          <p className="copyright"><small>&copy; 2018 Misaki's Portfolio Website</small></p>
+          <p className="copyright">
+            <small>&copy; {year} Misaki's Portfolio Website</small>
+          </p>
         </footer>
       </div>
     )
