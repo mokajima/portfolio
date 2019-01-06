@@ -1,6 +1,6 @@
 import React, {Component} from 'react'
 import { getWorks } from '../utils/api'
-import Work from './Work'
+import WorksList from './WorksList'
 import './App.css'
 import header from '../header.jpg'
 
@@ -29,16 +29,7 @@ class App extends Component {
             <h2 className="hero__title">Hello, I'm Misaki!</h2>
             <img className="hero__img" src={header} alt="" />
           </header>
-          <section className="section">
-            <h2 className="headline">Featured Work</h2>
-            <ul className="featured-work">
-              {this.state.works.map((work) => (
-                <li key={work.id}>
-                  <Work work={work} />
-                </li>
-              ))}
-            </ul>
-          </section>
+          <WorksList works={this.state.works} />
         </main>
         <footer className="footer">
           <div className="footer__inner profile">
