@@ -70,8 +70,9 @@ a:hover {
 /* Footer */
 .footer {
   background: #f1f1f1;
-  padding: 50px 0 150px;
+  padding: 50px 0;
   position: relative;
+  text-align: center;
 }
 
 .footer__inner {
@@ -164,15 +165,6 @@ a:hover {
 /* Profile */
 .profile__bio {
   line-height: 1.7;
-  text-align: center;
-}
-
-/* Copyright */
-.copyright {
-  text-align: center;
-  position: absolute;
-  bottom: 50px;
-  width: 100%;
 }
 
 @media screen and (min-width: 500px) {
@@ -182,7 +174,15 @@ a:hover {
 
   .headline {
     font-size: 3.125em;
+    margin-bottom: 25px;
+  }
+
+  .profile__bio {
     margin-bottom: 50px;
+  }
+
+  .copyright {
+    margin-top: 50px;
   }
 }
 
