@@ -15,3 +15,5 @@ function WorksList(props) {
     </section>
   )
 }
+
+export default WorksList
