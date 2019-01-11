@@ -1,4 +1,5 @@
 import React from 'react'
+import PropTypes from 'prop-types'
 
 const Work = (props) => {
   const {work} = props
@@ -17,6 +18,10 @@ const Work = (props) => {
       <p className="work__summary">{work.summary}</p>
     </div>
   )
+}
+
+Work.propTypes = {
+  work: PropTypes.object.isRequired
 }
 
 export default Work

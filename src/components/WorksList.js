@@ -1,4 +1,5 @@
 import React from 'react'
+import PropTypes from 'prop-types'
 import Work from './Work'
 
 function WorksList(props) {
@@ -14,6 +15,10 @@ function WorksList(props) {
       </ul>
     </section>
   )
+}
+
+WorksList.propTypes = {
+  works: PropTypes.array.isRequired
 }
 
 export default WorksList
