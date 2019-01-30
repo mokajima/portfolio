@@ -1,0 +1,75 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<div
+  className="work"
+>
+  <a
+    href="https://github.com/mokajima/readable"
+    rel="noopener noreferrer"
+    target="_blank"
+  >
+    <figure
+      className="work__img work__img--border"
+    >
+      <img
+        alt="Readable"
+        src="images/readable.jpg"
+      />
+    </figure>
+  </a>
+  <h3
+    className="work__title"
+  >
+    <a
+      href="https://github.com/mokajima/readable"
+      rel="noopener noreferrer"
+      target="_blank"
+    >
+      Readable
+    </a>
+  </h3>
+  <p
+    className="work__summary"
+  >
+    An anonymous content and comment web application.
+  </p>
+</div>
+`;
+
+exports[`renders correctly 2`] = `
+<div
+  className="work"
+>
+  <a
+    href="https://github.com/mokajima/readable"
+    rel="noopener noreferrer"
+    target="_blank"
+  >
+    <figure
+      className="work__img"
+    >
+      <img
+        alt="Readable"
+        src="images/readable.jpg"
+      />
+    </figure>
+  </a>
+  <h3
+    className="work__title"
+  >
+    <a
+      href="https://github.com/mokajima/readable"
+      rel="noopener noreferrer"
+      target="_blank"
+    >
+      Readable
+    </a>
+  </h3>
+  <p
+    className="work__summary"
+  >
+    An anonymous content and comment web application.
+  </p>
+</div>
+`;
