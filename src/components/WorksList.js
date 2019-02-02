@@ -7,7 +7,7 @@ function WorksList(props) {
     <section className="section">
       <h2 className="headline">Featured Work</h2>
       <ul className="featured-work">
-        {props.works.map((work) => (
+        {props.works.map(work => (
           <li key={work.id}>
             <Work work={work} />
           </li>

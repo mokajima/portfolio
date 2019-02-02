@@ -13,7 +13,7 @@ class App extends Component {
 
   componentDidMount() {
     getWorks()
-      .then((works) => {
+      .then(works => {
         this.setState({ works })
       })
   }
