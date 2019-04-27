@@ -23,7 +23,6 @@
     "lint": "eslint src/**/*.js"
   },
   "devDependencies": {
-    "eslint": "^5.12.0",
     "eslint-plugin-react": "^7.12.3",
     "react-test-renderer": "^16.7.0"
   }
