@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faGithub } from '@fortawesome/free-brands-svg-icons'
+import { faGithub, faTwitter } from '@fortawesome/free-brands-svg-icons'
 import { getWorks } from '../utils/api'
 import WorksList from './WorksList'
 import './App.css'
@@ -37,9 +37,18 @@ class App extends Component {
           <div className="footer__inner profile">
             <h2 className="headline">About Me</h2>
             <p className="profile__bio">Hello, I'm Misaki, a front end developer, based in Japan.</p>
-            <a href="https://github.com/mokajima/">
-              <FontAwesomeIcon icon={faGithub} size="2x" />
-            </a>
+            <ul className="footer__nav">
+              <li className="footer__nav-item">
+                <a href="https://github.com/mokajima/">
+                  <FontAwesomeIcon icon={faGithub} size="2x" />
+                </a>
+              </li>
+              <li className="footer__nav-item">
+                <a href="https://twitter.com/mokajima85z">
+                  <FontAwesomeIcon icon={faTwitter} size="2x" />
+                </a>
+              </li>
+            </ul>
           </div>
           <p className="copyright">
             <small>&copy; {year} Misaki's Portfolio Website</small>

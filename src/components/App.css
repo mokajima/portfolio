@@ -81,6 +81,16 @@ a:hover {
   max-width: 1450px;
 }
 
+.footer__nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer__nav-item {
+  margin: 0 5px;
+}
+
 /* Hero */
 .hero {
   height: 100vh;
