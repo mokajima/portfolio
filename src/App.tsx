@@ -1,10 +1,10 @@
 import React, { Component } from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faGithub, faTwitter } from '@fortawesome/free-brands-svg-icons'
-import { getWorks } from '../utils/api'
-import WorksList from './WorksList'
+import { getWorks } from './utils/api'
+import WorksList from './components/WorksList'
 import './App.css'
-import header from '../header.jpg'
+import header from './header.jpg'
 
 class App extends Component {
   state = {
