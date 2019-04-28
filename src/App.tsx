@@ -10,7 +10,7 @@ const App = () => {
   const year = new Date().getFullYear()
 
   return (
-    <div>
+    <>
       <header className="header">
         <h1 className="header__logo">Misaki's Portfolio Website</h1>
       </header>
@@ -42,7 +42,7 @@ const App = () => {
           <small>&copy; {year} Misaki's Portfolio Website</small>
         </p>
       </footer>
-    </div>
+    </>
   )
 }
 
