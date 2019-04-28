@@ -1,7 +1,7 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 
-const Work = (props) => {
+const Work = (props: any) => {
   const { work } = props
   const className = work.border ? 'work__img work__img--border' : 'work__img'
 
