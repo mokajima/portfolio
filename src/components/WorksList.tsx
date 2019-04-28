@@ -1,22 +1,33 @@
-import React from 'react'
-import PropTypes from 'prop-types'
+import React, { Component } from 'react'
+import { getWorks } from '../utils/api'
 import Work from './Work'
 
-const WorksList = (props: any) => (
-  <section className="section">
-    <h2 className="headline">Featured Work</h2>
-    <ul className="featured-work">
-      {props.works.map((work: any) => (
-        <li key={work.id}>
-          <Work work={work} />
-        </li>
-      ))}
-    </ul>
-  </section>
-)
+class WorksList extends Component {
+  state = {
+    works: []
+  }
 
-WorksList.propTypes = {
-  works: PropTypes.array.isRequired
+  componentDidMount() {
+    getWorks()
+      .then(works => {
+        this.setState({ works })
+      })
+  }
+
+  render() {
+    return (
+      <section className="section">
+        <h2 className="headline">Featured Work</h2>
+        <ul className="featured-work">
+          {this.state.works.map((work: any) => (
+            <li key={work.id}>
+              <Work work={work} />
+            </li>
+          ))}
+        </ul>
+      </section>
+    )
+  }
 }
 
 export default WorksList
