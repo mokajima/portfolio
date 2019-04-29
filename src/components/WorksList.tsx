@@ -2,14 +2,18 @@ import React, { Component } from 'react'
 import { getWorks } from '../utils/api'
 import Work from './Work'
 
-class WorksList extends Component {
+interface State {
+  works: Work[];
+}
+
+class WorksList extends Component<{}, State> {
   state = {
     works: []
   }
 
   componentDidMount() {
     getWorks()
-      .then(works => {
+      .then((works: Work[]) => {
         this.setState({ works })
       })
   }
@@ -19,7 +23,7 @@ class WorksList extends Component {
       <section className="section">
         <h2 className="headline">Featured Work</h2>
         <ul className="featured-work">
-          {this.state.works.map((work: any) => (
+          {this.state.works.map((work: Work) => (
             <li key={work.id}>
               <Work work={work} />
             </li>

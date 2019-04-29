@@ -1,6 +1,10 @@
 import React, { FC } from 'react'
 
-const Work: FC<any> = ({
+interface Props {
+  work: Work
+}
+
+const Work: FC<Props> = ({
   work
 }) => {
   const className = work.border ? 'work__img work__img--border' : 'work__img'
