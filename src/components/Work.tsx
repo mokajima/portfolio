@@ -1,8 +1,9 @@
-import React from 'react'
+import React, { FC } from 'react'
 import PropTypes from 'prop-types'
 
-const Work = (props: any) => {
-  const { work } = props
+const Work: FC<any> = ({
+  work
+}) => {
   const className = work.border ? 'work__img work__img--border' : 'work__img'
 
   return (

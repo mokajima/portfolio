@@ -1,11 +1,11 @@
-import React, { Component } from 'react'
+import React, { FC } from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faGithub, faTwitter } from '@fortawesome/free-brands-svg-icons'
 import WorksList from './components/WorksList'
 import './App.css'
 import header from './header.jpg'
 
-const App = () => {
+const App: FC = () => {
 
   const year = new Date().getFullYear()
 
