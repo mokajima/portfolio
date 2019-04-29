@@ -1,5 +1,4 @@
 import React, { FC } from 'react'
-import PropTypes from 'prop-types'
 
 const Work: FC<any> = ({
   work
@@ -19,10 +18,6 @@ const Work: FC<any> = ({
       <p className="work__summary">{work.summary}</p>
     </div>
   )
-}
-
-Work.propTypes = {
-  work: PropTypes.object.isRequired
 }
 
 export default Work
