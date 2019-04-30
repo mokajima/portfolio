@@ -1,37 +1,23 @@
-import React, { Component } from 'react'
-import { getWorks } from '../utils/api'
+import React, { FC } from 'react'
 import Work from './Work'
 
-interface State {
+interface Props {
   works: Work[];
 }
 
-class WorksList extends Component<{}, State> {
-  state = {
-    works: []
-  }
-
-  componentDidMount() {
-    getWorks()
-      .then((works: Work[]) => {
-        this.setState({ works })
-      })
-  }
-
-  render() {
-    return (
-      <section className="section">
-        <h2 className="headline">Featured Work</h2>
-        <ul className="featured-work">
-          {this.state.works.map((work: Work) => (
-            <li key={work.id}>
-              <Work work={work} />
-            </li>
-          ))}
-        </ul>
-      </section>
-    )
-  }
-}
+const WorksList: FC<Props> = ({
+  works
+}) => (
+  <section className="section">
+    <h2 className="headline">Featured Work</h2>
+    <ul className="featured-work">
+      {works.map((work: Work) => (
+        <li key={work.id}>
+          <Work work={work} />
+        </li>
+      ))}
+    </ul>
+  </section>
+)
 
 export default WorksList

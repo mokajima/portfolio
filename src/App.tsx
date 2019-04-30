@@ -1,7 +1,7 @@
 import React, { FC } from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faGithub, faTwitter } from '@fortawesome/free-brands-svg-icons'
-import WorksList from './components/WorksList'
+import WorksListContainer from './containers/WorksListContainer'
 import './App.css'
 import header from './header.jpg'
 
@@ -19,7 +19,7 @@ const App: FC = () => {
           <h2 className="hero__title">Hello, I'm Misaki!</h2>
           <img className="hero__img" src={header} alt="" />
         </header>
-        <WorksList />
+        <WorksListContainer />
       </main>
       <footer className="footer">
         <div className="footer__inner profile">
