@@ -109,47 +109,6 @@ a:hover {
   height: 100%;
 }
 
-/* Work */
-.work {
-  text-align: center;
-}
-
-.work__img {
-  border-radius: 10px;
-  box-sizing: border-box;
-  display: block;
-  margin-bottom: 20px;
-  overflow: hidden;
-  width: 100%;
-  position: relative;
-  z-index: 1;
-}
-
-.work__img--border {
-  border: 1px solid #ddd;
-}
-
-.work__img:hover img {
-  transform: scale(1.1);
-}
-
-.work__img img {
-  display: block;
-  backface-visibility: hidden;
-  width: 100%;
-  height: auto;
-  transition: transform 0.5s ease;
-}
-
-.work__title {
-  font-size: 1.5em;
-  margin-bottom: 20px;
-}
-
-.work__summary {
-  line-height: 1.7;
-}
-
 /* Profile */
 .profile__bio {
   line-height: 1.7;
