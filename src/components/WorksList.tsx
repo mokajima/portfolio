@@ -1,5 +1,6 @@
 import React, { FC } from 'react'
 import Work from './Work'
+import './WorksList.css'
 
 interface Props {
   works: Work[];
