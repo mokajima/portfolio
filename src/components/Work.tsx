@@ -2,7 +2,7 @@ import React, { FC } from 'react'
 import './Work.css'
 
 interface Props {
-  work: Work
+  work: Work;
 }
 
 const Work: FC<Props> = ({
