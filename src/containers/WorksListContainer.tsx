@@ -3,7 +3,7 @@ import { getWorks } from '../utils/api'
 import WorksList from '../components/WorksList'
 
 const WorksListContainer: FC = () => {
-  const [works, setWorks] = useState<Work[]>([]);
+  const [works, setWorks] = useState<Work[]>([])
 
   useEffect(() => {
     getWorks()
