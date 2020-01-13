@@ -1,4 +1,6 @@
 import React, { FC } from 'react'
+
+// view
 import './Work.css'
 
 interface Props {
